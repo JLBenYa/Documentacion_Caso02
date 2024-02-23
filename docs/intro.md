@@ -2,46 +2,31 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# ¡Bienvenido al Manual de Instalación!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- Esta documentación está diseñada para brindarte una guía completa sobre cómo instalar y configurar nuestros productos de manera rápida y sencilla. Con estas instrucciones, podrás poner en funcionamiento nuestras soluciones en poco tiempo, asegurando un despliegue exitoso y sin contratiempos.
 
-## Getting Started
 
-Get started by **creating a new site**.
+### Manual para Script de Instalación Docker | GitLab | Opción SSL | Opción SSH
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- Este manual te proporciona instrucciones detalladas sobre cómo utilizar nuestro script de instalación para configurar tu entorno de desarrollo. Con este script, podrás actualizar el sistema, instalar las herramientas necesarias y realizar todas las configuraciones previas para poner en marcha nuestra aplicación en minutos.
 
-### What you'll need
+### Manual de Instalación Docker + GitLab + SSL
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Con este manual, aprenderás cómo instalar nuestra aplicación utilizando Docker, GitLab y SSL. Estas instrucciones te guiarán a través del proceso de configuración, incluida la instalación de dependencias, la configuración del certificado SSL renovable y la integración con GitLab para facilitar la gestión del código.
 
-## Generate a new site
+### Manual de Instalación Linux + Valet
 
-Generate a new Docusaurus site using the **classic template**.
+- Si prefieres implementar nuestra aplicación en un servidor local Linux desde cero, este manual es para ti. Aquí encontrarás pasos detallados para instalar PHP, MySQL, Git, Composer y otras dependencias necesarias, así como instrucciones sobre cómo configurar el entorno de desarrollo utilizando Valet.
 
-The classic template will automatically be added to your project after you run the command:
+### Instalación del Facturador Docker | Linux | SSL externo
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- Este manual te guiará a través del proceso de instalación utilizando Docker en un entorno Linux, con la opción de integrar un certificado SSL externo. Aprenderás cómo ejecutar el script de instalación y luego realizar las configuraciones necesarias para habilitar el acceso a nuestra aplicación a través del puerto 443.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+:::tip
+Con estos manuales, podrás instalar nuestras soluciones de manera rápida y eficiente, asegurando una implementación exitosa y lista para su uso. 
+:::
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
