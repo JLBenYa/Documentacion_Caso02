@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentación en Docusuarus',
+  title: 'Documentación en Docusaurus',
   tagline: 'JLBenYa',
   favicon: 'img/favicon.ico',
 

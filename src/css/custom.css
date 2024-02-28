@@ -7,18 +7,19 @@
 /* You can override the default Infima variables here. */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
-  --ifm-color-primary: #51d4ac;
-  --ifm-color-primary-dark: #3dc395;
-  --ifm-color-primary-darker: #36b982;
-  --ifm-color-primary-darkest: #299e6e;
-  --ifm-color-primary-light: #61dbc0;
-  --ifm-color-primary-lighter: #6ce0c5;
-  --ifm-color-primary-lightest: #8ee7d4;
+  --ifm-color-primary: #ff8c00; /* Naranja */
+  --ifm-color-primary-dark: #ff6b00; /* Naranja oscuro */
+  --ifm-color-primary-darker: #e65a00; /* Naranja más oscuro */
+  --ifm-color-primary-darkest: #bf4800; /* Naranja muy oscuro */
+  --ifm-color-primary-light: #ffb633; /* Naranja claro */
+  --ifm-color-primary-lighter: #ffcc66; /* Naranja más claro */
+  --ifm-color-primary-lightest: #ffd699; /* Naranja muy claro */
   --ifm-code-font-size: 100%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Inter';
-  --ifm-heading-color: #020f3c;
+  --ifm-heading-color: #020f3c; /* Color de texto */
   --ifm-color-gray-900: #031863;
   --ifm-hover-overlay: #f6f8fe;
   --ifm-color-emphasis-700: #031863;
@@ -30,15 +31,15 @@ pre {
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #51d4ac;
-  --ifm-color-primary-dark: #3dc395;
-  --ifm-color-primary-darker: #36b982;
-  --ifm-color-primary-darkest: #299e6e;
-  --ifm-color-primary-light: #61dbc0;
-  --ifm-color-primary-lighter: #6ce0c5;
-  --ifm-color-primary-lightest: #8ee7d4;
+  --ifm-color-primary: #ff8c00; /* Naranja */
+  --ifm-color-primary-dark: #ff6b00; /* Naranja oscuro */
+  --ifm-color-primary-darker: #e65a00; /* Naranja más oscuro */
+  --ifm-color-primary-darkest: #bf4800; /* Naranja muy oscuro */
+  --ifm-color-primary-light: #ffb633; /* Naranja claro */
+  --ifm-color-primary-lighter: #ffcc66; /* Naranja más claro */
+  --ifm-color-primary-lightest: #ffd699; /* Naranja muy claro */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-heading-color: #51d4ac;
+  --ifm-heading-color: hsl(0, 0%, 100%); /* Color de texto */
 }
 
 html[data-theme='dark'] {
@@ -176,8 +177,8 @@ a.card.padding--lg.cardContainer_node_modules-\@docusaurus-theme-classic-lib-the
 }
 
 iframe {
-	aspect-ratio: 16 / 9;
-	height: 100%;
-	width: 100%;
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
   border-radius: 18px;
 }
